@@ -177,11 +177,11 @@ python shell_emulator.py \
 
 | Этап | Команда запуска |
 |---|---|
-| 1. REPL | `python shell_emulator.py` |
-| 2. Скрипт | `python shell_emulator.py --startup test_scripts/stage2_startup.sh --debug` |
-| 3. VFS | `python shell_emulator.py --vfs vfs_archives/complex_vfs.zip --startup test_scripts/stage3_vfs.sh --debug` |
-| 4. Основные команды | `python shell_emulator.py --vfs vfs_archives/medium_vfs.zip --startup test_scripts/stage4_basic.sh --debug` |
-| 5. Изменение VFS | `python shell_emulator.py --vfs vfs_archives/complex_vfs.zip --startup test_scripts/stage5_advanced.sh --debug` |
+| 1. REPL | `py shell_emulator.py` |
+| 2. Скрипт | `py shell_emulator.py --startup test_scripts/stage2_startup.sh --debug` |
+| 3. VFS | `py shell_emulator.py --vfs vfs_archives/complex_vfs.zip --startup test_scripts/stage3_vfs.sh --debug` |
+| 4. Основные команды | `py shell_emulator.py --vfs vfs_archives/medium_vfs.zip --startup test_scripts/stage4_basic.sh --debug` |
+| 5. Изменение VFS | `py shell_emulator.py --vfs vfs_archives/complex_vfs.zip --startup test_scripts/stage5_advanced.sh --debug` |
 
 
 ### Обработка ошибок
